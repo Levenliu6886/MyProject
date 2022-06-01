@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leven/sylar/workspace/sylar/address.h
+memory
+-
+string
+-
+sys/socket.h
+-
+sys/types.h
+-
+arpa/inet.h
+-
+iostream
+-
+netinet/in.h
+-
+sys/un.h
+-
+vector
+-
+map
+-
+
+/home/leven/sylar/workspace/sylar/uri.h
+memory
+-
+string
+-
+stdint.h
+-
+address.h
+/home/leven/sylar/workspace/sylar/address.h
+
+/home/leven/sylar/workspace/tests/test_uri.cpp
+../sylar/uri.h
+/home/leven/sylar/workspace/sylar/uri.h
+iostream
+-
+
